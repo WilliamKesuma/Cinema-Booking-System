@@ -1,0 +1,9 @@
+Cinema Booking System
+ 
+In this assignment, we were tasked to create a C# Desktop application featuring a seating reservation system for a cinema 
+click on the menu strip above which is labeled as "CINEMA" then procedeed to click on the MOVIES
+after clicking on the movies, a veriety of movies will be shown to the user and the user while be able to pick the movie and reserve seats
+the Desktop application features time arrangements and an auto generated seating arrangements for each spesific movie and time selected
+feel free to explore the application
+
+Open The .sln file and run the code to see the application
