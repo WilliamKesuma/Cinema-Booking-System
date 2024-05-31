@@ -1,0 +1,391 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AD_TakeHome_W7
+{
+    public partial class JOHNWICK : Form
+    {
+        Panel Panel_Seats_JOHNWIK = new Panel();
+        List<Button> list_JOHNWIK_Seats_1230 = new List<Button>();
+        List<Button> list_JOHNWIK_Seats_1505 = new List<Button>();
+        List<Button> list_JOHNWIK_Seats_2000 = new List<Button>();
+
+        int location1 = 10;
+        int location2 = 10;
+
+        int counter = 0;
+        int choose = 0;
+
+        Label seatschoosen = new Label();
+        Random Seasts = new Random();
+
+        public JOHNWICK()
+        {
+            InitializeComponent();
+        }
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+            // BANNER
+            PictureBox PB_BANNER = new PictureBox();
+            PB_BANNER.BackColor = SystemColors.WindowFrame;
+            PB_BANNER.Location = new Point(-2, 0);
+            PB_BANNER.Name = "PB_BANNER";
+            PB_BANNER.Size = new Size(767, 69);
+            PB_BANNER.TabIndex = 0;
+            PB_BANNER.TabStop = false;
+            Controls.Add(PB_BANNER);
+
+            // JOHN WICK 4
+            Label LB_JOHNWIK = new Label();
+            LB_JOHNWIK.AutoSize = true;
+            LB_JOHNWIK.BackColor = SystemColors.Control;
+            LB_JOHNWIK.Font = new Font("Calibri", 14.25F, FontStyle.Bold, GraphicsUnit.Point, ((byte)(0)));
+            LB_JOHNWIK.Location = new Point(12, 94);
+            LB_JOHNWIK.Name = "LB_JOHNWIK";
+            LB_JOHNWIK.Size = new Size(112, 23);
+            LB_JOHNWIK.TabIndex = 2;
+            LB_JOHNWIK.Text = "JOHN WICK: CHAPTER 4";
+            Controls.Add(LB_JOHNWIK);
+
+            // JOHN WICK 4 BANNER
+            PictureBox PB_JOHNWIK = new PictureBox();
+            PB_JOHNWIK.BackColor = SystemColors.Control;
+            PB_JOHNWIK.Image = Properties.Resources.JOHN_WIK;
+            PB_JOHNWIK.Location = new Point(12, 120);
+            PB_JOHNWIK.Name = "PB_JOHNWIK";
+            PB_JOHNWIK.Size = new Size(167, 202);
+            PB_JOHNWIK.SizeMode = PictureBoxSizeMode.StretchImage;
+            PB_JOHNWIK.TabIndex = 3;
+            PB_JOHNWIK.TabStop = false;
+            Controls.Add(PB_JOHNWIK);
+
+            // CIPUTRA UNIVERSITY THEATER
+            Label LB_PLAYINGAT = new Label();
+            LB_PLAYINGAT.AutoSize = true;
+            LB_PLAYINGAT.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, ((byte)(0)));
+            LB_PLAYINGAT.Location = new Point(185, 120);
+            LB_PLAYINGAT.Name = "LB_PLAYINGAT";
+            LB_PLAYINGAT.Size = new Size(244, 16);
+            LB_PLAYINGAT.TabIndex = 4;
+            LB_PLAYINGAT.Text = "CIPUTRA UNIVERSITY THEATER";
+            Controls.Add(LB_PLAYINGAT);
+
+            // 12:30
+            Button BTN_JOHNWIK1230 = new Button();
+            BTN_JOHNWIK1230.BackColor = SystemColors.WindowFrame;
+            BTN_JOHNWIK1230.ForeColor = Color.Bisque;
+            BTN_JOHNWIK1230.Location = new Point(185, 147);
+            BTN_JOHNWIK1230.Name = "BTN_JOHNWIK1230";
+            BTN_JOHNWIK1230.Size = new Size(116, 41);
+            BTN_JOHNWIK1230.TabIndex = 5;
+            BTN_JOHNWIK1230.Text = "12:30";
+            BTN_JOHNWIK1230.UseVisualStyleBackColor = false;
+            Controls.Add(BTN_JOHNWIK1230);
+            BTN_JOHNWIK1230.Click += (BTN_JOHNWIK1230_CLICK);
+
+            // 15:50
+            Button BTN_JOHNWIK1505 = new Button();
+            BTN_JOHNWIK1505.BackColor = SystemColors.WindowFrame;
+            BTN_JOHNWIK1505.ForeColor = Color.Bisque;
+            BTN_JOHNWIK1505.Location = new Point(185, 241);
+            BTN_JOHNWIK1505.Name = "BTN_JOHNWIK_1505";
+            BTN_JOHNWIK1505.Size = new Size(116, 41);
+            BTN_JOHNWIK1505.TabIndex = 6;
+            BTN_JOHNWIK1505.Text = "15:05";
+            BTN_JOHNWIK1505.UseVisualStyleBackColor = false;
+            Controls.Add(BTN_JOHNWIK1505);
+            BTN_JOHNWIK1505.Click += (BTN_JOHNWIK1505_CLICK);
+
+            // 20:00
+            Button BTN_JOHNWIK2000 = new Button();
+            BTN_JOHNWIK2000.BackColor = SystemColors.WindowFrame;
+            BTN_JOHNWIK2000.ForeColor = Color.Bisque;
+            BTN_JOHNWIK2000.Location = new Point(185, 194);
+            BTN_JOHNWIK2000.Name = "BTN_JOHNWIK_2000";
+            BTN_JOHNWIK2000.Size = new Size(116, 41);
+            BTN_JOHNWIK2000.TabIndex = 7;
+            BTN_JOHNWIK2000.Text = "20:00";
+            BTN_JOHNWIK2000.UseVisualStyleBackColor = false;
+            Controls.Add(BTN_JOHNWIK2000);
+            BTN_JOHNWIK2000.Click += (BTN_JOHNWIK2000_CLICK);
+
+            // SEATS IRONMAN 2
+            Panel_Seats_JOHNWIK.BackColor = SystemColors.ActiveBorder;
+            Panel_Seats_JOHNWIK.Location = new Point(435, 94);
+            Panel_Seats_JOHNWIK.Name = "Panel_Seats_JOHNWIK";
+            Panel_Seats_JOHNWIK.Size = new Size(318, 275);
+            Panel_Seats_JOHNWIK.TabIndex = 8;
+            Controls.Add(Panel_Seats_JOHNWIK);
+
+            //BACK BUTTON
+            Button BTN_BACK = new Button();
+            BTN_BACK.Location = new Point(12, 344);
+            BTN_BACK.Name = "BTN_BACK";
+            BTN_BACK.Size = new Size(51, 25);
+            BTN_BACK.TabIndex = 18;
+            BTN_BACK.Text = "<";
+            BTN_BACK.UseVisualStyleBackColor = true;
+            Controls.Add(BTN_BACK);
+            BTN_BACK.Click += (BTN_BACK_CLICK);
+
+            // RESERVE SEAT
+            Button BTN_JOHNWIK_Reserve = new Button();
+            BTN_JOHNWIK_Reserve.BackColor = SystemColors.WindowFrame;
+            BTN_JOHNWIK_Reserve.ForeColor = Color.Bisque;
+            BTN_JOHNWIK_Reserve.Location = new Point(300, 324);
+            BTN_JOHNWIK_Reserve.Name = "button2";
+            BTN_JOHNWIK_Reserve.Size = new Size(116, 41);
+            BTN_JOHNWIK_Reserve.TabIndex = 7;
+            BTN_JOHNWIK_Reserve.Text = "Reserve";
+            BTN_JOHNWIK_Reserve.UseVisualStyleBackColor = false;
+            Controls.Add(BTN_JOHNWIK_Reserve);
+            BTN_JOHNWIK_Reserve.Click += (BTN_JOHNWIK_Reserve_Click);
+
+            // RESET BUTTON
+            Button BTN_JOHNWIK_Reset = new Button();
+            BTN_JOHNWIK_Reset.BackColor = SystemColors.WindowFrame;
+            BTN_JOHNWIK_Reset.ForeColor = Color.Bisque;
+            BTN_JOHNWIK_Reset.Location = new Point(300, 277);
+            BTN_JOHNWIK_Reset.Name = "button2";
+            BTN_JOHNWIK_Reset.Size = new Size(116, 41);
+            BTN_JOHNWIK_Reset.TabIndex = 7;
+            BTN_JOHNWIK_Reset.Text = "Reset";
+            BTN_JOHNWIK_Reset.UseVisualStyleBackColor = false;
+            Controls.Add(BTN_JOHNWIK_Reset);
+            BTN_JOHNWIK_Reset.Click += (BTN_JOHNWIK_Reset_Click);
+
+            // SEAT BUTTONS 12:30
+            Panel_Seats_JOHNWIK.Controls.Clear();
+            Seats_JOHNWIK_Generate_1230();
+
+            // RANDOM SEATS12:30
+            for (int i = 0; i < 70; i++)
+            {
+                int random = Seasts.Next(0, 100);
+                list_JOHNWIK_Seats_1230[random].BackColor = Color.Red;
+                list_JOHNWIK_Seats_1230[random].Enabled = false;
+            }
+
+            // SEAT BUTTONS 15:05
+            Panel_Seats_JOHNWIK.Controls.Clear();
+            Seats_JOHNWIK_Generate_1505();
+
+
+            // RANDOM SEATS 15:05
+            for (int i = 0; i < 70; i++)
+            {
+                int random = Seasts.Next(0, 100);
+                list_JOHNWIK_Seats_1505[random].BackColor = Color.Red;
+                list_JOHNWIK_Seats_1505[random].Enabled = false;
+            }
+
+            // SEATS BUTTONS 20:00
+            Panel_Seats_JOHNWIK.Controls.Clear();
+            Seats_JOHNWIK_Generate_2000();
+
+
+            // RANDOM SEATS 20:00
+            for (int i = 0; i < 70; i++)
+            {
+                int random = Seasts.Next(0, 100);
+                list_JOHNWIK_Seats_2000[random].BackColor = Color.Red;
+                list_JOHNWIK_Seats_2000[random].Enabled = false;
+            }
+        }
+
+        private void BTN_BACK_CLICK(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BTN_JOHNWIK1230_CLICK(object sender, EventArgs e)
+        {
+            Panel_Seats_JOHNWIK.Controls.Clear();
+            choose = 1;
+            foreach (Button seat in list_JOHNWIK_Seats_1230)
+            {
+                Panel_Seats_JOHNWIK.Controls.Add(seat);
+            }
+        }
+
+        private void BTN_JOHNWIK1505_CLICK(object sender, EventArgs e)
+        {
+            Panel_Seats_JOHNWIK.Controls.Clear();
+            choose = 2;
+            foreach (Button seat in list_JOHNWIK_Seats_1505)
+            {
+                Panel_Seats_JOHNWIK.Controls.Add(seat);
+            }
+        }
+
+        private void BTN_JOHNWIK2000_CLICK(object sender, EventArgs e)
+        {
+            Panel_Seats_JOHNWIK.Controls.Clear();
+            choose = 3;
+            foreach (Button seat in list_JOHNWIK_Seats_2000)
+            {
+                Panel_Seats_JOHNWIK.Controls.Add(seat);
+            }
+        }
+
+        private void BTN_JOHNWIK_Reserve_Click(object sender, EventArgs e)
+        {
+            if (choose == 1)
+            {
+                foreach (Button button in list_JOHNWIK_Seats_1230)
+                {
+                    if (button.BackColor == Color.YellowGreen)
+                    {
+                        button.BackColor = Color.Red;
+                        button.Enabled = false;
+                    }
+                }
+            }
+            if (choose == 2)
+            {
+                foreach (Button button in list_JOHNWIK_Seats_1505)
+                {
+                    if (button.BackColor == Color.YellowGreen)
+                    {
+                        button.BackColor = Color.Red;
+                        button.Enabled = false;
+                    }
+                }
+            }
+            if (choose == 3)
+            {   
+                foreach (Button button in list_JOHNWIK_Seats_2000)
+                {
+                    if (button.BackColor == Color.YellowGreen)
+                    {
+                        button.BackColor = Color.Red;
+                        button.Enabled = false;
+                    }
+                }
+            }
+        }
+
+        private void Tombol_Click_JOHNWIK_Seats1(object sender, EventArgs e)
+        {
+            Panel_Seats_JOHNWIK.Controls.Clear();
+
+            foreach (Button seat in list_JOHNWIK_Seats_1230)
+            {
+                Panel_Seats_JOHNWIK.Controls.Add(seat);
+            }
+            Button button = sender as Button;
+            if (button.BackColor == Color.LightGreen)
+            {
+                button.BackColor = Color.YellowGreen;
+                seatschoosen.Text += button.Tag.ToString();
+            }
+
+        }
+
+        private void Tombol_Click_JOHNWIK_Seats2(object sender, EventArgs e)
+        {
+            Panel_Seats_JOHNWIK.Controls.Clear();
+            foreach (Button seat in list_JOHNWIK_Seats_1505)
+            {
+                Panel_Seats_JOHNWIK.Controls.Add(seat);
+            }
+            Button button = sender as Button;
+            if (button.BackColor == Color.LightGreen)
+            {
+                button.BackColor = Color.YellowGreen;
+                seatschoosen.Text += button.Tag.ToString();
+            }
+
+        }
+
+        private void Tombol_Click_JOHNWIK_Seats3(object sender, EventArgs e)
+        {
+            Panel_Seats_JOHNWIK.Controls.Clear();
+            foreach (Button seat in list_JOHNWIK_Seats_2000)
+            {
+                Panel_Seats_JOHNWIK.Controls.Add(seat);
+            }
+            Button button = sender as Button;
+            if (button.BackColor == Color.LightGreen)
+            {
+                button.BackColor = Color.YellowGreen;
+                seatschoosen.Text += button.Tag.ToString();
+            }
+
+        }
+
+        private void BTN_JOHNWIK_Reset_Click(object sender, EventArgs e)
+        {
+            Panel_Seats_JOHNWIK.Controls.Clear();
+            list_JOHNWIK_Seats_1230.Clear();
+            list_JOHNWIK_Seats_2000.Clear();
+            list_JOHNWIK_Seats_2000.Clear();
+            Seats_JOHNWIK_Generate_1230();
+            Seats_JOHNWIK_Generate_1505();
+            Seats_JOHNWIK_Generate_2000();
+        }
+
+
+        public void Seats_JOHNWIK_Generate_1230()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    Button tombol = new Button();
+                    tombol.Size = new Size(25, 25);
+                    tombol.Location = new Point(location1 + 30 * i, location2 + 25 * j);
+                    tombol.Tag = j.ToString() + "," + i.ToString();
+                    tombol.BackColor = Color.LightGreen;
+                    tombol.Click += new EventHandler(Tombol_Click_JOHNWIK_Seats1);
+                    Panel_Seats_JOHNWIK.Controls.Add(tombol);
+                    list_JOHNWIK_Seats_1230.Add(tombol); 
+                }
+            }
+        }
+
+        public void Seats_JOHNWIK_Generate_1505()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    Button tombol = new Button();
+                    tombol.Size = new Size(25, 25);
+                    tombol.Location = new Point(location1 + 30 * i, location2 + 25 * j);
+                    tombol.Tag = j.ToString() + "," + i.ToString();
+                    tombol.BackColor = Color.LightGreen;
+                    tombol.Click += new EventHandler(Tombol_Click_JOHNWIK_Seats2);
+                    Panel_Seats_JOHNWIK.Controls.Add(tombol);
+                    list_JOHNWIK_Seats_1505.Add(tombol);
+                }
+            }
+        }
+
+        public void Seats_JOHNWIK_Generate_2000()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    Button tombol = new Button();
+                    tombol.Size = new Size(25, 25);
+                    tombol.Location = new Point(location1 + 30 * i, location2 + 25 * j);
+                    tombol.Tag = j.ToString() + "," + i.ToString();
+                    tombol.BackColor = Color.LightGreen;
+                    tombol.Click += new EventHandler(Tombol_Click_JOHNWIK_Seats3);
+                    Panel_Seats_JOHNWIK.Controls.Add(tombol);
+                    list_JOHNWIK_Seats_2000.Add(tombol);
+                }
+            }
+        }
+    }
+}

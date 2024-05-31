@@ -1,0 +1,80 @@
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.exe.config
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.exe
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.pdb
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.AssemblyReference.cache
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.SuggestedBindingRedirects.cache
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form1.resources
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Properties.Resources.resources
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.GenerateResource.cache
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.CoreCompileInputs.cache
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.exe
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.pdb
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form2.resources
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.FORM3.resources
+C:\Users\William\Desktop\APDEV\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form4.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.exe.config
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.exe
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.pdb
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.AssemblyReference.cache
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.SuggestedBindingRedirects.cache
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form1.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form2.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form3.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Properties.Resources.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.GenerateResource.cache
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.CoreCompileInputs.cache
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.exe
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.pdb
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.IRONMAN2.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.IRONMAN3.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.JOHNWICK.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.TOPGUN.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.HTTYD1.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.HTTYD2.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.HTTYD3.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.KNIVES1.resources
+C:\Users\William Kesuma\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.KNIVES2.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.exe.config
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.exe
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.pdb
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.AssemblyReference.cache
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.SuggestedBindingRedirects.cache
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form1.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form2.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.HTTYD1.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.HTTYD2.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.HTTYD3.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.KNIVES1.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.KNIVES2.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.TOPGUN.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.IRONMAN2.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.IRONMAN3.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.JOHNWICK.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form3.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Properties.Resources.resources
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.GenerateResource.cache
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.CoreCompileInputs.cache
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.exe
+C:\Users\William\Desktop\APDEV\SI-PALING-NDAK-JELAS-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.pdb
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.exe.config
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.exe
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\bin\Debug\AD_TakeHome_W7.pdb
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.AssemblyReference.cache
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.SuggestedBindingRedirects.cache
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form1.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form2.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.HTTYD1.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.HTTYD2.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.HTTYD3.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.KNIVES1.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.KNIVES2.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.TOPGUN.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.IRONMAN2.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.IRONMAN3.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.JOHNWICK.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Form3.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.Properties.Resources.resources
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.GenerateResource.cache
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.csproj.CoreCompileInputs.cache
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.exe
+C:\Users\willi\Downloads\AD_SEMESTER-2-main\AD_SEMESTER-2-main\AD_TakeHome_W7\AD_TakeHome_W7\obj\Debug\AD_TakeHome_W7.pdb

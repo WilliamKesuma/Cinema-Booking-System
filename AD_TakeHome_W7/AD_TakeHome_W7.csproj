@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{869B2FE8-C47C-42D6-BFEC-ED8A6DEC1958}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AD_TakeHome_W7</RootNamespace>
+    <AssemblyName>AD_TakeHome_W7</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HTTYD1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HTTYD1.Designer.cs">
+      <DependentUpon>HTTYD1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HTTYD2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HTTYD2.Designer.cs">
+      <DependentUpon>HTTYD2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HTTYD3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HTTYD3.Designer.cs">
+      <DependentUpon>HTTYD3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KNIVES1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KNIVES1.Designer.cs">
+      <DependentUpon>KNIVES1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KNIVES2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KNIVES2.Designer.cs">
+      <DependentUpon>KNIVES2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TOPGUN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TOPGUN.Designer.cs">
+      <DependentUpon>TOPGUN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IRONMAN2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IRONMAN2.Designer.cs">
+      <DependentUpon>IRONMAN2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IRONMAN3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IRONMAN3.Designer.cs">
+      <DependentUpon>IRONMAN3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JOHNWICK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JOHNWICK.Designer.cs">
+      <DependentUpon>JOHNWICK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IRONMAN1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IRONMAN1.Designer.cs">
+      <DependentUpon>IRONMAN1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HTTYD1.resx">
+      <DependentUpon>HTTYD1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HTTYD2.resx">
+      <DependentUpon>HTTYD2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HTTYD3.resx">
+      <DependentUpon>HTTYD3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KNIVES1.resx">
+      <DependentUpon>KNIVES1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KNIVES2.resx">
+      <DependentUpon>KNIVES2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TOPGUN.resx">
+      <DependentUpon>TOPGUN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IRONMAN2.resx">
+      <DependentUpon>IRONMAN2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IRONMAN3.resx">
+      <DependentUpon>IRONMAN3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JOHNWICK.resx">
+      <DependentUpon>JOHNWICK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IRONMAN1.resx">
+      <DependentUpon>IRONMAN1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HHTYD 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HTTYD 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HTTYD 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IRON MAN 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IRON MAN 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IRON MAN 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JOHN WIK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KNIVES OUT 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KNIVES OUT 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOP GUN MAV.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie-film.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IRON MAN 1 BANNER.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
